@@ -16,4 +16,29 @@ The goal is to understand how market sentiment and leverage affect trader perfor
 
 ##  Strategy Ideas
 - Reduce leverage on Greed days to avoid volatility.  
-- Align trade direction with sentiment bias but limit trade frequency on Greed days.  
+- Align trade direction with sentiment bias but limit trade frequency on Greed days.
+- 
+##  How to Run
+
+1. Make sure you have **Python 3.x** installed on your system.  
+   - You can check by running:
+     ```bash
+     python --version
+     ```
+
+2. Install the required libraries (if not already installed):
+   ```bash
+   pip install pandas matplotlib seaborn
+3. Clone this repository:
+bash
+git clone https://github.com/your-username/trader-analysis.git
+cd trader-analysis
+
+4.Run the analysis script:
+bash
+python analysis.py
+
+5.The script will generate charts and analysis results.
+
+Charts will either display in a window or be saved as image files (depending on the code).
+For a polished summary, open analysis.pdf included in this repo.
